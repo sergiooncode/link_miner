@@ -1,6 +1,9 @@
 # link_miner
 
-Link Miner is a useful example showing the use of lxml XML toolkit.
+Link Miner is a useful example showing the use of lxml XML toolkit. The code is based on: 
+
+- XPath class in lxml.etree submodule to select relevant HTML elements.
+- HTMLParser class in lxml.html submodule to parse the raw HTML. 
 
 Use of XPath class:
 

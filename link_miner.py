@@ -30,7 +30,7 @@ if __name__ == '__main__':
         'table_brdr')] //tr //td //a", namespaces=XPATH_NAMESPACES)
     
     try:
-        # get html url and convert it to an etree using the most excellent lxml library(http://codespeak.net/lxml)
+        # get html url and convert it to an etree
         rawhtml = urllib2.urlopen(START_URL).read()
         xmlTree = lxml.etree.fromstring(rawhtml, parser = lxml.html.HTMLParser(recover=True, remove_comments=True))
        
