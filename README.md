@@ -18,4 +18,6 @@ Use of HTMLParser:
 <pre>
 xmlTree = lxml.etree.fromstring(rawhtml, parser = lxml.html.HTMLParser(recover=True, 
             remove_comments=True))
-</pre>            
+</pre> 
+
+In this example the page to be crawled is the one found on the Office of the Comptroller of the Currency website under Topics > Licensing > <a href="http://www.occ.gov/topics/licensing/interpretations-and-actions/index-interpretations-and-actions.html" target ="_blank">Interpretations and Actions</a> 
